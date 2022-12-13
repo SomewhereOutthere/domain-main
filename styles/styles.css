@@ -18,7 +18,9 @@ Table of Contents:
 
 /*//////////////////////// 1. Global Styles */
 
-
+/*@todo: lees de README nog even goed door over hoe je de afbeelding op de juiste plek krijt met de tekst. Hier heb je geen position voor  nodig*/
+/*@todo: de position relative van de button afhalen, ook hier niet nodig*/
+/*@todo: het quote symbol wil je absoluut positioneren tenopzichte van het witte vlak. Anders verplaatst íe te veel*/
 
 *{
     margin: 0;
@@ -26,6 +28,12 @@ Table of Contents:
     box-sizing: border-box;
 }
 
+/*main {*/
+/*    max-width: 1000px;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    display: block;*/
+/*}*/
 
 
 
@@ -36,6 +44,8 @@ Table of Contents:
 
 body {
     font-family: 'Poppins', sans-serif;
+    /*font-size: 18px;*/
+    /*text-align: center;*/
 }
 
 h1 {
@@ -71,15 +81,12 @@ p {
 
 /*///////////// 3.1 Header /////////////*/
 
-
-
 .header-section {
     position: relative;
     height: 300px;
     top: -5px;
 
 }
-
 
 header {
     background: url('../assets/images/mountains.jpg') no-repeat center local;
@@ -91,6 +98,45 @@ header {
 
 }
 
+/*.header-section {*/
+/*    text-align: center;*/
+    /*margin-top: 30px;*/
+
+
+/*}*/
+
+/*    height: 300px;*/
+/*    top: -5px;*/
+/*    max-width: 1000px;*/
+/*    margin: 0 auto;*/
+/*    color: transparent;*/
+/*    text-align: center;*/
+
+}
+
+/*header {*/
+/*    background: url('../assets/images/mountains.jpg') no-repeat center local;*/
+/*    background-size: cover;*/
+/*    margin:  0 auto;*/
+/*    padding: 15%;*/
+/**/
+/**/
+/*}*/
+
+/*header {*/
+    /*background-image: url('../assets/images/mountains.jpg') ;*/
+    /*background-size: cover;*/
+
+    /*background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),*/
+    /*url("../../media/examples/lizard.png");*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat ;*/
+    /*background: url(/assets/images/mountains.jpg) no-repeat center local;*/
+    /*background-size: cover;*/
+/*}*/
+
 section {
     text-align: center;
     top: 15px;
@@ -98,6 +144,10 @@ section {
 
 }
 
+.input-url-field {
+    position: relative;
+    text-align: center;
+}
 
 .url-field {
     border-radius: 15px 0px 0px 15px;
@@ -116,8 +166,8 @@ section {
     background-color: black;
     padding: 5px;
     color: white;
-}
 
+}
 
 
 
@@ -126,13 +176,17 @@ section {
 
 /*////////!*3.15 MAIN*!*!///////*/
 
+/*main {*/
+/*    max-width: 1000px;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}*/
+
+/*asasfas*/
 main {
     max-width: 1000px;
     margin: 0 auto;
 }
-
-/*asasfas*/
-
 
 
 /*///////////// 3.2 Testimonial /////////////*/
@@ -154,6 +208,7 @@ main {
 .testimonials {
     position: relative;
     left: -20px;
+    text-align: center;
 }
 
 
@@ -231,6 +286,7 @@ main {
 .subtext-callcenter {
     position: relative;
     bottom: 50px;
+    text-align: center;
 }
 
 .text-support {
@@ -268,8 +324,9 @@ a:hover {
     border-radius: 15px 15px 15px 15px;
     padding: 10px;
     margin: 1px;
-    left: -260px;
     position: relative;
+    left: 175px;
+
 
 
 }
@@ -281,6 +338,7 @@ a:hover {
     position: relative;
     margin: 30px;
     left:30px;
+    text-align: center;
 }
 
 .question-list {
@@ -331,6 +389,7 @@ details[open] summary {
 /*///////////// 3.5 Footer /////////////*/
 footer {
     position: absolute;
+
 }
 /*hmm*/
 /*kjsdngksdnjg*/
