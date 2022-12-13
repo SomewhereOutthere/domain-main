@@ -52,7 +52,10 @@ p {
 }
 
 
-
+.faq-answers {
+    font-size:  15px;
+    color: white;
+}
 
 
 
@@ -133,6 +136,20 @@ main {
 
 
 /*///////////// 3.2 Testimonial /////////////*/
+
+.quote-sign {
+    position: relative;
+    width: 17px;
+    left: -235px;
+    top: -40px;
+}
+
+.quote-sign2 {
+    position: relative;
+    width: 19px;
+    left: -275px;
+    top: -180px;
+}
 
 .testimonials {
     position: relative;
@@ -313,7 +330,7 @@ details[open] summary {
 
 /*///////////// 3.5 Footer /////////////*/
 footer {
-    position: relative;
+    position: absolute;
 }
 /*hmm*/
 /*kjsdngksdnjg*/
@@ -322,7 +339,7 @@ footer {
     color: white;
     padding: 30px;
     position: absolute;
-    bottom: -300px;
+    bottom: -450px;
     width: 2000px;
 
 }
